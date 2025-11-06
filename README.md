@@ -200,7 +200,6 @@ After a scan completes, you'll see:
 
 ## Project Structure
 
-\`\`\`
 ransomware-detection-app/
 ├── app/                           # Next.js App Router pages
 │   ├── layout.tsx                 # Root layout with metadata
@@ -251,7 +250,7 @@ ransomware-detection-app/
 ├── tsconfig.json                  # TypeScript configuration
 ├── next.config.mjs                # Next.js configuration
 └── README.md                      # This file
-\`\`\`
+
 
 ---
 
