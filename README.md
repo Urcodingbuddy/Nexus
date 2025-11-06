@@ -199,61 +199,8 @@ After a scan completes, you'll see:
 ---
 
 ## Project Structure
+<img width="13939" height="3460" alt="Nexona" src="https://github.com/user-attachments/assets/57a297f6-3683-47d2-b78f-aed7f13f28a5" />
 
-\`\`\`
-ransomware-detection-app/
-├── app/                           # Next.js App Router pages
-│   ├── layout.tsx                 # Root layout with metadata
-│   ├── globals.css                # Global styles and theme variables
-│   ├── page.tsx                   # Dashboard/Home page
-│   ├── history/
-│   │   └── page.tsx              # Scan history page
-│   └── settings/
-│       └── page.tsx              # Settings configuration page
-│
-├── components/                    # React components
-│   ├── header.tsx                 # Navigation header with tabs
-│   ├── threat-analysis.tsx        # File upload and scan interface
-│   ├── scan-history.tsx           # History display component
-│   ├── statistics.tsx             # Stats cards (total, threats, clean)
-│   ├── status-cards.tsx           # System status indicators
-│   ├── icons.tsx                  # Custom SVG icons
-│   ├── notification-popup.tsx     # Toast notification system
-│   ├── confirmation-dialog.tsx    # Reusable confirmation modal
-│   ├── theme-provider.tsx         # Dark theme configuration
-│   ├── layout-wrapper.tsx         # Page layout wrapper
-│   └── ui/                        # shadcn/ui component library
-│       ├── button.tsx
-│       ├── card.tsx
-│       ├── dialog.tsx
-│       ├── switch.tsx
-│       ├── tabs.tsx
-│       └── ... (50+ pre-built components)
-│
-├── lib/                           # Utility functions and logic
-│   ├── threat-detector.ts         # Ransomware detection engine
-│   ├── storage.ts                 # localStorage management
-│   └── utils.ts                   # Helper functions
-│
-├── public/                        # Static assets
-│   ├── placeholder-logo.svg       # Application logo
-│   ├── placeholder-logo.png
-│   └── placeholder.svg            # Placeholder images
-│
-├── styles/                        # Additional stylesheets
-│   └── globals.css                # Global CSS
-│
-├── hooks/                         # Custom React hooks
-│   ├── use-toast.ts              # Toast notification hook
-│   └── use-mobile.ts             # Mobile detection hook
-│
-├── package.json                   # Dependencies and scripts
-├── tsconfig.json                  # TypeScript configuration
-├── next.config.mjs                # Next.js configuration
-└── README.md                      # This file
-\`\`\`
-
----
 
 ## File Directory & Explanations
 
