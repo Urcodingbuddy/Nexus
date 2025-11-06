@@ -1,5 +1,8 @@
 # NEXUS - Ransomware Detection Dashboard
 
+Live Link : https://nexus-nine-coral.vercel.app
+Github link: https://github.com/Urcodingbuddy/Nexus
+
 ![NEXUS](./public/placeholder-logo.svg)
 
 A professional, full-featured ransomware detection application built with Next.js, React, and TypeScript. NEXUS provides real-time file scanning, threat analysis, and security monitoring with a sleek dark-themed UI.
